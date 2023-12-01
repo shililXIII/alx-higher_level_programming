@@ -7,6 +7,9 @@ if __name__ == "__main__":
     
     elif size == 1:
         print("{} arguments:".format(size))
+        print("{}: {}".format(1, sys.argv[1]))
+    else:
+        print("{} arguments:".format(size))
         for x in range(size):
             print("{}: {}".format(x + 1, sys.argv[x + 1]))
 

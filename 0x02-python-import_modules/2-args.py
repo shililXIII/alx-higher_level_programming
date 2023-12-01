@@ -6,11 +6,11 @@ if __name__ == "__main__":
         print("0 arguments.")
     
     elif size == 1:
-        print("{} argument:".format(size))
-        print("{}: {}".format(1, sys.argv[1]))
+        print("{:d} argument:".format(size))
+        print("{:d}: {}".format(1, sys.argv[1]))
     else:
-        print("{} arguments:".format(size))
+        print("{:d} arguments:".format(size))
         for x in range(size):
-            print("{}: {}".format(x + 1, sys.argv[x + 1]))
+            print("{:d}: {}".format(x + 1, sys.argv[x + 1]))
 
 

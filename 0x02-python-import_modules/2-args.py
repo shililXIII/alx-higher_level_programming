@@ -6,7 +6,7 @@ if __name__ == "__main__":
         print("0 arguments.")
     
     elif size == 1:
-        print("{} arguments:".format(size))
+        print("{} argument:".format(size))
         print("{}: {}".format(1, sys.argv[1]))
     else:
         print("{} arguments:".format(size))

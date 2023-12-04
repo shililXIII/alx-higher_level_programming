@@ -8,6 +8,6 @@ def print_matrix_integer(matrix=[[]]):
                 if y != len(matrix[x]) - 1:
                     z = ' '
                 else:
-                    z = ''
+                    z = '' 
                 print("{:d}".format(matrix[x][y]), end=z)
                 print()
